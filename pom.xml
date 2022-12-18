@@ -20,5 +20,6 @@
         <module>modules</module>
         <module>services</module>
         <module>extensions</module>
+        <module>main</module>
     </modules>
 </project>
