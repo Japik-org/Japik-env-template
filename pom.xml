@@ -18,5 +18,6 @@
     <modules>
         <module>Japik</module>
         <module>modules</module>
+        <module>services</module>
     </modules>
 </project>
