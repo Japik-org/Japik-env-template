@@ -21,5 +21,6 @@
         <module>services</module>
         <module>extensions</module>
         <module>main</module>
+        <module>tests</module>
     </modules>
 </project>
