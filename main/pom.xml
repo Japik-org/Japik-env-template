@@ -46,11 +46,6 @@
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>com.japik.env.template.Main</mainClass>
-                        </manifest>
-                    </archive>
                     <descriptorRefs>
                         <descriptorRef>src</descriptorRef>
                     </descriptorRefs>
@@ -73,6 +68,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>libs/</classpathPrefix>
+                            <mainClass>com.japik.env.template.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
