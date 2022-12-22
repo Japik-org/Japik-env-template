@@ -72,6 +72,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
+                            <classpathPrefix>libs/</classpathPrefix>
                         </manifest>
                     </archive>
                 </configuration>
