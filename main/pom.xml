@@ -86,7 +86,7 @@
                         <configuration>
                             <outputDirectory>${project.build.directory}/out/libs</outputDirectory>
                             <overWriteSnapshots>true</overWriteSnapshots>
-                            <excludeArtifactIds>Japik</excludeArtifactIds>
+                            <excludeScope>provided</excludeScope>
                         </configuration>
                     </execution>
                 </executions>
